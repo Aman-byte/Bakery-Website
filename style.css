@@ -1,0 +1,250 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+/* Apply the imported font to specific elements */
+body {
+    font-family: 'Courgette', cursive; /* Use the imported font for the body text */
+}
+
+/* You can apply the font to other elements as well */
+h1, h2, h3 {
+    font-family: 'Courgette', cursive;
+}
+
+body {
+    margin: 0;
+}
+
+/* CSS for Navigation Bar */
+nav {
+    background-color: #f8e3c5;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #603813;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #603813;
+    color: #f8e3c5;
+}
+
+/* CSS for Hero Section */
+.hero {
+    text-align: center;
+    padding: 80px 0;
+    background-color: #f8e3c5;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #603813;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    max-width: 600px;
+    margin: 0 auto;
+    color: #603813;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #603813; 
+    color: #f8e3c5;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #472c1b;
+}
+
+/* CSS for About Us Section */
+#about {
+    background-color: #f3d9b0; /* Horizontal separator color */
+    padding: 30px;
+}
+
+#about h2 {
+    text-align: center;
+    color: #603813;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+/* CSS for Bakery Items Section */
+#items {
+    background-color: #f8e3c5;
+    padding: 30px;
+}
+
+#items h2 {
+    text-align: center;
+    color: #603813;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+#items .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.item {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8e3c5;
+}
+
+.item img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.price {
+    display: block;
+    margin-top: 20px;
+    background-color: #603813;
+    color: #f8e3c5;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* CSS for Customer Reviews Section */
+#reviews {
+    background-color: #f3d9b0; /* Horizontal separator color */
+    padding: 30px;
+}
+
+#reviews h2 {
+    text-align: center;
+    color: #603813;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+#reviews .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.review {
+    width: 45%;
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8e3c5;
+}
+
+.review img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* CSS for Video Section */
+#video {
+    background-color: #f3d9b0; /* Horizontal separator color */
+    padding: 30px;
+}
+
+#video h2 {
+    text-align: center;
+    color: #603813;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+#video .container {
+    text-align: center;
+}
+
+.video-wrapper {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* CSS for Contact Us Section */
+#contact {
+    background-color: #f8e3c5;
+    padding: 30px;
+}
+
+#contact h2 {
+    text-align: center;
+    color: #603813;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+#contact .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.contact-info {
+    flex: 1;
+    color: #603813;
+}
+
+.map {
+    flex: 1;
+    height: 300px;
+    margin-left: 30px;
+}
+
+.map iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 5px;
+}
+
+/* CSS for Footer Section */
+footer {
+    background-color: #603813;
+    color: #f8e3c5;
+    text-align: center;
+    padding: 10px;
+}
